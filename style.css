@@ -1,0 +1,170 @@
+body{
+    background-color: #0f0d22;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+}
+
+.container{
+    height: 921px;
+    width: 300px;
+    margin-right: 0px;
+    background-color: #1c1744;
+}
+
+span.LEFTSIDE{
+    width: 200px;
+    height: 160px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 36px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 84px;
+    left: 36px;
+}
+
+span.home{
+    height: 333px;
+    width: 200px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    top: 201px;
+    left: 36px;   
+
+}
+
+.circle{
+    height: 510px;
+    width: 510px;
+    border-radius: 50%;
+    background:linear-gradient(45deg,#FF6200,#FD7F2C,#FD9346,#FDA766,#FDB777) ;
+    position: absolute;
+    left: 1214px;
+    bottom: 222px;
+   
+}
+
+span.SMicons{
+    display: flex;
+    position: absolute;
+    top: 840px;
+    left: 36px;
+    column-gap: 18px;
+
+}
+
+#Intro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    position: absolute;
+    bottom: 441px;
+    left: 390px;
+    justify-content: center;
+    row-gap: 0%;
+
+
+
+    
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 72px;
+    color: aliceblue;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    letter-spacing: 3px;
+
+}
+
+#sirname{
+    color: #FD7F2C;
+}
+
+.job{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    position: absolute;
+    bottom: 390px;
+    left: 393px;
+    letter-spacing: 1px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    height: 150px;
+    width: 50px;
+    position: absolute;
+    left: 393px;
+    bottom: 120px;
+}
+
+#contactinfo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+    position: absolute;
+    left: 429px;
+    bottom: 188px;
+}
+
+pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: aliceblue;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.button{
+    position: absolute;
+    left: 1331px;
+    bottom: 144px;
+    width: 345px;
+    height: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 72px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    letter-spacing: 3px;
+}
+.button:hover{
+    background-color: #FD7F2C;
+    color: #ffffff;
+}
+
+.pic{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    bottom: 240px;
+    left: 1190px;
+}
+
+
+
+.mouse{
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    left: 1246px;
+    bottom: 151.5px;
+}
+
+.pc{
+    width: 100px;
+    height: 87px;
+    position: absolute;
+    left: 399px;
+    top: 81px;
+}
